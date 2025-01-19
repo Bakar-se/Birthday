@@ -1,24 +1,7 @@
 "use client"
-import type { Metadata } from "next";
-import { Geist, Geist_Mono, Birthstone, Playwrite_IN } from "next/font/google";
+import { Playwrite_IN } from "next/font/google";
 import { useState, useRef } from "react";
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-const birthstone = Birthstone({
-  variable: "--font-birthstone",
-  subsets: ["latin"],
-  weight: "400",
-});
 
 const playwrite = Playwrite_IN({
   variable: "--font-playwrite",
